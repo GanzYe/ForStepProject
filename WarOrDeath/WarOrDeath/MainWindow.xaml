@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WarOrDeath"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="720" Width="700">
     <Grid>
-        
+        <Image Source="Assets/menu.png" HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="auto" Margin="0,0,0,-4"/>
+        <Button x:Name="Play" Opacity="0" Click="Play_Click" HorizontalAlignment="Left" Height="106" Margin="146,49,0,0" VerticalAlignment="Top" Width="402"/>
+        <Button x:Name="Options" Opacity="0" Click="Options_Click" HorizontalAlignment="Left" Height="105" Margin="146,208,0,0" VerticalAlignment="Top" Width="402"/>
+        <Button x:Name="About" Opacity="0" Click="About_Click" HorizontalAlignment="Left" Height="104" Margin="146,369,0,0" VerticalAlignment="Top" Width="402"/>
+        <Button x:Name="Exit" Opacity="0" Click="Exit_Click" HorizontalAlignment="Left" Height="106" Margin="146,525,0,0" VerticalAlignment="Top" Width="402"/>
     </Grid>
 </Window>
