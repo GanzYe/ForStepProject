@@ -50,106 +50,113 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Button Click="SetForUnit" Background="AliceBlue" Grid.Row="1" Margin="2" Grid.Column="1" ></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="2"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="3"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="4"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="5"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="6"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="7"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="8"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="9"></Button>
-        <Button Click="SetForUnit" Background="AliceBlue" Grid.Row="1" Margin="2" Grid.Column="10"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="1"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="2"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="3"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="4"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="5"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="6"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="7"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="8"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="9"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="10"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="1"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="2"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="3"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="4"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="5"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="6"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="7"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="8"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="9"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="10"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="1"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="2"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="3"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="4"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="5"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="6"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="7"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="8"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="9"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="10"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="1"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="2"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="3"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="4"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="5"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="6"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="7"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="8"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="9"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="10"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="1"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="2"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="3"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="4"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="5"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="6"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="7"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="8"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="9"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="10"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="1"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="2"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="3"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="4"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="5"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="6"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="7"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="8"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="9"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="10"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="1"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="2"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="3"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="4"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="5"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="6"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="7"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="8"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="9"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="10"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="1"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="2"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="3"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="4"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="5"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="6"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="7"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="8"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="9"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="10"></Button>
-        <Button Click="SetForUnit" Background="AliceBlue" Grid.Row="10" Margin="2" Grid.Column="1"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="2"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="3"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="4"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="5"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="6"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="7"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="8"></Button>
-        <Button Click="SetForUnit" Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="9"></Button>
-        <Button Click="SetForUnit" Background="AliceBlue" Grid.Row="10" Margin="2" Grid.Column="10"></Button>
-        <TextBlock x:Name="ss" Grid.ColumnSpan="5" Grid.Column="4" Margin="2,26,10,27" Grid.Row="11" FontSize="45" Foreground="White">0</TextBlock>
+        <Button Click="SetForUnit" Tag="ActiveForComp" Background="Aquamarine" Grid.Row="1" Margin="2" Grid.Column="1" ></Button>
+        <Button Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="2"></Button>
+        <Button Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="3"></Button>
+        <Button Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="4"></Button>
+        <Button Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="5"></Button>
+        <Button Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="6"></Button>
+        <Button Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="7"></Button>
+        <Button Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="8"></Button>
+        <Button Background="#FF73777A" Grid.Row="1" Margin="2" Grid.Column="9"></Button>
+        <Button Click="SetForUnit" Tag="ActiveForComp" Background="Aquamarine" Grid.Row="1" Margin="2" Grid.Column="10" ></Button>
+        <Button  Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="1"></Button>
+        <Button  Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="2"></Button>
+        <Button  Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="3"></Button>
+        <Button  Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="4"></Button>
+        <Button  Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="5"></Button>
+        <Button  Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="6"></Button>
+        <Button  Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="7"></Button>
+        <Button  Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="8"></Button>
+        <Button  Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="9"></Button>
+        <Button  Background="#FF73777A" Grid.Row="2" Margin="2" Grid.Column="10"></Button>
+        <Button  Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="1"></Button>
+        <Button  Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="2"></Button>
+        <Button  Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="3"></Button>
+        <Button  Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="4"></Button>
+        <Button  Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="5"></Button>
+        <Button  Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="6"></Button>
+        <Button  Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="7"></Button>
+        <Button  Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="8"></Button>
+        <Button  Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="9"></Button>
+        <Button  Background="#FF73777A" Grid.Row="3" Margin="2" Grid.Column="10"></Button>
+        <Button  Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="1"></Button>
+        <Button  Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="2"></Button>
+        <Button  Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="3"></Button>
+        <Button  Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="4"></Button>
+        <Button  Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="5"></Button>
+        <Button  Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="6"></Button>
+        <Button  Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="7"></Button>
+        <Button  Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="8"></Button>
+        <Button  Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="9"></Button>
+        <Button  Background="#FF73777A" Grid.Row="4" Margin="2" Grid.Column="10"></Button>
+        <Button  Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="1"></Button>
+        <Button  Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="2"></Button>
+        <Button  Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="3"></Button>
+        <Button  Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="4"></Button>
+        <Button  Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="5"></Button>
+        <Button  Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="6"></Button>
+        <Button  Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="7"></Button>
+        <Button  Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="8"></Button>
+        <Button  Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="9"></Button>
+        <Button  Background="#FF73777A" Grid.Row="5" Margin="2" Grid.Column="10"></Button>
+        <Button  Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="1"></Button>
+        <Button  Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="2"></Button>
+        <Button  Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="3"></Button>
+        <Button  Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="4"></Button>
+        <Button  Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="5"></Button>
+        <Button  Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="6"></Button>
+        <Button  Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="7"></Button>
+        <Button  Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="8"></Button>
+        <Button  Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="9"></Button>
+        <Button  Background="#FF73777A" Grid.Row="6" Margin="2" Grid.Column="10"></Button>
+        <Button  Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="1"></Button>
+        <Button  Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="2"></Button>
+        <Button  Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="3"></Button>
+        <Button  Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="4"></Button>
+        <Button  Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="5"></Button>
+        <Button  Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="6"></Button>
+        <Button  Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="7"></Button>
+        <Button  Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="8"></Button>
+        <Button  Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="9"></Button>
+        <Button  Background="#FF73777A" Grid.Row="7" Margin="2" Grid.Column="10"></Button>
+        <Button  Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="1"></Button>
+        <Button  Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="2"></Button>
+        <Button  Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="3"></Button>
+        <Button  Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="4"></Button>
+        <Button  Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="5"></Button>
+        <Button  Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="6"></Button>
+        <Button  Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="7"></Button>
+        <Button  Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="8"></Button>
+        <Button  Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="9"></Button>
+        <Button  Background="#FF73777A" Grid.Row="8" Margin="2" Grid.Column="10"></Button>
+        <Button  Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="1"></Button>
+        <Button  Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="2"></Button>
+        <Button  Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="3"></Button>
+        <Button  Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="4"></Button>
+        <Button  Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="5"></Button>
+        <Button  Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="6"></Button>
+        <Button  Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="7"></Button>
+        <Button  Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="8"></Button>
+        <Button  Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="9"></Button>
+        <Button  Background="#FF73777A" Grid.Row="9" Margin="2" Grid.Column="10"></Button>
+        <Button Click="SetForUnit" Tag="Active" Background="AliceBlue" Grid.Row="10" Margin="2,2,2,0" Grid.Column="1" Height="49" VerticalAlignment="Top"></Button>
+        <Button  Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="2"></Button>
+        <Button  Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="3"></Button>
+        <Button  Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="4"></Button>
+        <Button  Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="5"></Button>
+        <Button  Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="6"></Button>
+        <Button  Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="7"></Button>
+        <Button  Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="8"></Button>
+        <Button  Background="#FF73777A" Grid.Row="10" Margin="2" Grid.Column="9"></Button>
+        <Button Click="SetForUnit" Tag="Active" Background="AliceBlue" Grid.Row="10" Margin="2" Grid.Column="10"></Button>
+        <TextBlock Grid.Column="1" Margin="0,10,2,55" Grid.Row="11" FontSize="30" Foreground="Black" Grid.ColumnSpan="5" Background="White">Количество ходов :</TextBlock>
+        <TextBlock x:Name="Turns"  Grid.Column="6" Margin="3,10,0,55" Grid.Row="11" FontSize="30" Foreground="Black" Background="White" TextAlignment="Center"></TextBlock>
+        <Button  x:Name="RandCube" Click="RandCube_Click" Grid.ColumnSpan="4" Content="Кидать кубики" FontSize="21" Grid.Column="7" HorizontalAlignment="Left" Height="41" Margin="28,10,0,0" Grid.Row="11" VerticalAlignment="Top" Width="170" Background="GreenYellow"/>
+        <TextBlock Grid.Column="1" Margin="0,56,2,9" Grid.Row="11" FontSize="26" Foreground="Black" Grid.ColumnSpan="5" Background="White"><Run Text="Количество солдатов :"/></TextBlock>
+        <TextBlock x:Name="Units"  Grid.Column="6" Margin="3,56,0,9" Grid.Row="11" FontSize="30" Foreground="Black" Background="White" TextAlignment="Center"/>
+        <TextBlock x:Name="forYou" Grid.ColumnSpan="2" Grid.Column="10" HorizontalAlignment="Left" Height="27" Margin="31,17,0,0" Grid.Row="11" TextWrapping="Wrap" Foreground="White" FontSize="20" VerticalAlignment="Top" Width="62" Text="&lt;--"/>
+        <TextBlock Grid.Column="7" Margin="10,56,5,9" Grid.Row="11" FontSize="30" Foreground="Black" Grid.ColumnSpan="4" Background="White"><Run Text="ИИ кол-ходов :"/></TextBlock>
+        <TextBlock x:Name="CompTurns"  Grid.Column="11" Margin="2,56,0,9" Grid.Row="11" FontSize="30" Foreground="Black" Background="White" TextAlignment="Center"/>
     </Grid>
 </Window>
