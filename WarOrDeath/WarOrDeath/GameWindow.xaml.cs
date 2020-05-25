@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -15,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 enum Dir
 {
-    You,II
+    You,II,ThatAll,None
 }
 namespace WarOrDeath
 {
@@ -38,6 +39,7 @@ namespace WarOrDeath
             youButtons = new List<Button>();
             iiButtons = new List<Button>();
             countTurns = 0;
+            IIcountTurns = 0;
             int i = 1;
             Turns.Text = countTurns.ToString();
             foreach (var item in gameGrid.Children)
@@ -79,20 +81,97 @@ namespace WarOrDeath
                 btn.Click -= SetForUnit;
                 IiTurnButton();
             }
+            var allActive = buttons.Where(x => (string)x.Tag == "Active");
+            int count = allActive.Count();
+            int countClik = buttons.Where(x => (string)x.Tag == "CLICKED").Count();
+            int countBrush = 100-countClik;
+            if (0 == count)
+            {
+                var iibtn = buttons.Where(x => (string)x.Tag == "ActiveForComp");
+                for (int i = 0; i < countBrush; i++)
+                {
+                    UpdateII();
+                }
+            }
+            if (100==buttons.Where(x => (string)x.Tag == "CLICKED").Count())
+            {
+                if (iiButtons.Count>youButtons.Count)
+                {
+                   MessageBox.Show($"Компьютер выиграл вас!ХАВХАХВХАХВАХ\nВаш счет:{youButtons.Count}\nСчет компа:{iiButtons.Count}");
+                }
+                if (iiButtons.Count<youButtons.Count)
+                {
+                   MessageBox.Show($"А ты хорош! Вы выиргали!\nВаш счет:{youButtons.Count}\nСчет компа:{iiButtons.Count}");
+                }
+                var win = new MainWindow();
+                win.Show();
+                this.Close();
+            }
         }
+
         private void IiTurnButton()
         {
-            if (countTurns == 0 && RandCube.IsEnabled == false)
+            if (countTurns == 0 && !RandCube.IsEnabled)
             {
                 Random random = new Random();
                 IIcountTurns = random.Next(1, 10);
                 CompTurns.Text = IIcountTurns.ToString();
                 for (int i = 0; i < IIcountTurns; i++)
                 {
-
+                    UpdateII();
                 }
+                RandCube.IsEnabled = true;
+                RandCube.Opacity = 1;
+                forYou.Opacity = 1;
             }
         }
+
+        private void UpdateII()
+        {
+            var actButtons = buttons.Where(x =>(string)x.Tag == "ActiveForComp");
+            Random random = new Random();
+            var btn = new Button();
+            int randIndex = random.Next(0, actButtons.Count());
+            int startIndex= 0;
+            if (100 == buttons.Where(x => (string)x.Tag == "CLICKED").Count())
+            {
+                if (iiButtons.Count > youButtons.Count)
+                {
+                    MessageBox.Show($"Компьютер выиграл вас!ХАВХАХВХАХВАХ\nВаш счет:{youButtons.Count}\nСчет компа:{iiButtons.Count}");
+                }
+                if (iiButtons.Count < youButtons.Count)
+                {
+                    MessageBox.Show($"А ты хорош! Вы выиргали!\nВаш счет:{youButtons.Count}\nСчет компа:{iiButtons.Count}");
+                }
+                var win = new MainWindow();
+                win.Show();
+                this.Close();
+            }
+            if (0 == actButtons.Count())
+            {
+                RandCube.IsEnabled = true;
+                RandCube.Opacity = 1;
+                forYou.Opacity = 1;
+                return;
+            }
+            foreach (var item in actButtons)
+            {
+                if (startIndex == randIndex)
+                {
+                    btn = item;
+                    break;
+                }
+                startIndex++;
+            }
+            int position = int.Parse(btn.Name.Substring(1));
+            Ellipse elip = new Ellipse { Fill = Brushes.Red, Height = 30, Stroke = Brushes.Black, Width = 30 };
+            Grid grid = new Grid();
+            btn.Content = (elip);
+            btn.Tag = "CLICKED";
+            iiButtons.Add(btn);
+            GetButton(position, Dir.II);
+        }
+
         private void GetButton(int position, Dir dir)
         {
             List<Button> fineButtons = new List<Button>();
@@ -154,7 +233,7 @@ namespace WarOrDeath
             {
                 fineButtons.Add(FineButton(position + 10));
                 fineButtons.Add(FineButton(position - 1));
-                fineButtons.Add(FineButton(position + 10));
+                fineButtons.Add(FineButton(position + 1));
                 fineButtons.Add(FineButton(position - 10));
             }
             //ActiveForComp
@@ -164,7 +243,7 @@ namespace WarOrDeath
                 {
                     if (dir == Dir.You)
                     {
-                        if (!((string)item.Tag == "Active"))
+                        if (!((string)item.Tag == "Active") && !((string)item.Tag == "ActiveForComp"))
                         {
                             item.Tag = "Active";
                             item.Background = new SolidColorBrush(Colors.AliceBlue);
@@ -173,18 +252,11 @@ namespace WarOrDeath
                     }
                     if (dir == Dir.II)
                     {
-                        RotateTransform transform = new RotateTransform(45);
-                        Rectangle xRec = new Rectangle { Stroke = Brushes.Maroon, Height = 4, StrokeThickness = 4, RenderTransformOrigin = new Point(0.5, 0.5), Margin = new Thickness(-18, 0, -18, 0), RenderTransform = transform };
-                        Rectangle xRec2 = new Rectangle { Stroke = Brushes.Maroon, Width = 4, StrokeThickness = 4, RenderTransformOrigin = new Point(0.5, 0.5), Margin = new Thickness(0, -18, 0, -18), RenderTransform = transform };
-                        Grid grid = new Grid();
-                        grid.Children.Add(xRec);
-                        grid.Children.Add(xRec2);
-                        btn.Content = grid;
-                        FineButton(position).Background = new SolidColorBrush(Colors.Aquamarine);
-                        if (!((string)item.Tag == "Active"))
+                        if (!((string)item.Tag == "Active") && !((string)item.Tag == "ActiveForComp"))
                         {
                             item.Tag = "ActiveForComp";
                             item.Background = new SolidColorBrush(Colors.Aquamarine);
+                            item.Click += SetForUnit;
                         }
                     }
                 }
