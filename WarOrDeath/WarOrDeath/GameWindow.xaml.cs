@@ -97,11 +97,11 @@ namespace WarOrDeath
             {
                 if (iiButtons.Count>youButtons.Count)
                 {
-                   MessageBox.Show($"Компьютер выиграл вас!ХАВХАХВХАХВАХ\nВаш счет:{youButtons.Count}\nСчет компа:{iiButtons.Count}");
+                   MessageBox.Show($"Компьютер выиграл вас! ХАВХАХВХАХВАХ\nВаш счет: {youButtons.Count}\nСчет компа: {iiButtons.Count}");
                 }
                 if (iiButtons.Count<youButtons.Count)
                 {
-                   MessageBox.Show($"А ты хорош! Вы выиргали!\nВаш счет:{youButtons.Count}\nСчет компа:{iiButtons.Count}");
+                   MessageBox.Show($"А ты хорош! Вы выиргали!\nВаш счет: {youButtons.Count}\nСчет компа: {iiButtons.Count}");
                 }
                 var win = new MainWindow();
                 win.Show();
@@ -137,11 +137,11 @@ namespace WarOrDeath
             {
                 if (iiButtons.Count > youButtons.Count)
                 {
-                    MessageBox.Show($"Компьютер выиграл вас!ХАВХАХВХАХВАХ\nВаш счет:{youButtons.Count}\nСчет компа:{iiButtons.Count}");
+                    MessageBox.Show($"Компьютер выиграл вас! ХАВХАХВХАХВАХ\nВаш счет: {youButtons.Count}\nСчет компа: {iiButtons.Count}");
                 }
                 if (iiButtons.Count < youButtons.Count)
                 {
-                    MessageBox.Show($"А ты хорош! Вы выиргали!\nВаш счет:{youButtons.Count}\nСчет компа:{iiButtons.Count}");
+                    MessageBox.Show($"А ты хорош! Вы выиргали!\nВаш счет: {youButtons.Count}\nСчет компа: {iiButtons.Count}");
                 }
                 var win = new MainWindow();
                 win.Show();
@@ -284,8 +284,6 @@ namespace WarOrDeath
             RandCube.Opacity = 0;
             forYou.Opacity = 0;
 
-        }
-
-        
+        }     
     }
 }
